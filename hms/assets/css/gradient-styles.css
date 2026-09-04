@@ -1,0 +1,575 @@
+/* Gradient Styles for Hospital Management System */
+
+/* Main Backgrounds */
+body {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    color: #333;
+}
+
+.header {
+    background: linear-gradient(90deg, #2c3e50 0%, #4ca1af 100%);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.sidebar {
+    background: linear-gradient(180deg, #2c3e50 0%, #1a252f 100%);
+}
+
+.sidebar-menu ul li.active a {
+    background: linear-gradient(90deg, #4ca1af 0%, #2c3e50 100%);
+    color: #fff;
+    border-left-color: #fff;
+}
+
+.sidebar-menu ul li a:hover {
+    background: linear-gradient(90deg, #4ca1af 0%, #2c3e50 100%);
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+/* Cards and Widgets */
+.card, .card-box {
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover, .card-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.dash-widget {
+    background: linear-gradient(135deg, #ffffff 0%, #f5f5f5 100%);
+    transition: transform 0.3s ease;
+}
+
+.dash-widget:hover {
+    transform: translateY(-5px);
+}
+
+.dash-widget-bg1 {
+    background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+}
+
+.dash-widget-bg2 {
+    background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%);
+}
+
+.dash-widget-bg3 {
+    background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+}
+
+.dash-widget-bg4 {
+    background: linear-gradient(135deg, #f1c40f 0%, #f39c12 100%);
+}
+
+/* Buttons */
+.btn-primary {
+    background: linear-gradient(90deg, #4ca1af 0%, #2c3e50 100%);
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    background: linear-gradient(90deg, #2c3e50 0%, #4ca1af 100%);
+    border: none;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(44, 62, 80, 0.3);
+}
+
+.btn-success {
+    background: linear-gradient(90deg, #2ecc71 0%, #27ae60 100%);
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active {
+    background: linear-gradient(90deg, #27ae60 0%, #2ecc71 100%);
+    border: none;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(39, 174, 96, 0.3);
+}
+
+.btn-info {
+    background: linear-gradient(90deg, #3498db 0%, #2980b9 100%);
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-info:hover, .btn-info:focus, .btn-info:active {
+    background: linear-gradient(90deg, #2980b9 0%, #3498db 100%);
+    border: none;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(41, 128, 185, 0.3);
+}
+
+.btn-warning {
+    background: linear-gradient(90deg, #f1c40f 0%, #f39c12 100%);
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active {
+    background: linear-gradient(90deg, #f39c12 0%, #f1c40f 100%);
+    border: none;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(243, 156, 18, 0.3);
+}
+
+.btn-danger {
+    background: linear-gradient(90deg, #e74c3c 0%, #c0392b 100%);
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active {
+    background: linear-gradient(90deg, #c0392b 0%, #e74c3c 100%);
+    border: none;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(192, 57, 43, 0.3);
+}
+
+/* Tables */
+.table-striped > tbody > tr:nth-of-type(2n+1) {
+    background: linear-gradient(90deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+/* Form Elements */
+.form-control {
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #4ca1af;
+    box-shadow: 0 0 10px rgba(76, 161, 175, 0.3);
+}
+
+/* Custom Select Styles */
+.select2-container--default .select2-selection--single {
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+}
+
+.select2-container--default .select2-selection--single:focus {
+    border-color: #4ca1af;
+    box-shadow: 0 0 10px rgba(76, 161, 175, 0.3);
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background: linear-gradient(90deg, #4ca1af 0%, #2c3e50 100%);
+}
+
+/* Navigation */
+.nav-tabs.nav-tabs-solid > li > a.active, 
+.nav-tabs.nav-tabs-solid > li > a.active:hover, 
+.nav-tabs.nav-tabs-solid > li > a.active:focus {
+    background: linear-gradient(90deg, #4ca1af 0%, #2c3e50 100%);
+}
+
+/* Progress Bars */
+.progress {
+    background-color: #e9ecef;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background: linear-gradient(90deg, #4ca1af 0%, #2c3e50 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.progress-bar:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, rgba(255,255,255,0.2) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, transparent 75%, transparent);
+    background-size: 15px 15px;
+    animation: progressAnimation 2s linear infinite;
+}
+
+@keyframes progressAnimation {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 15px 0;
+    }
+}
+
+/* Status Indicators */
+.status {
+    transition: all 0.3s ease;
+}
+
+.status.online {
+    background: linear-gradient(90deg, #2ecc71 0%, #27ae60 100%);
+}
+
+.status.offline {
+    background: linear-gradient(90deg, #e74c3c 0%, #c0392b 100%);
+}
+
+.status.away {
+    background: linear-gradient(90deg, #f1c40f 0%, #f39c12 100%);
+}
+
+/* Login Page */
+.account-page {
+    background: linear-gradient(135deg, #2c3e50 0%, #4ca1af 100%);
+    position: relative;
+    overflow: visible;
+    background-size: 200% 200%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.account-page:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 25% 25%, rgba(255, 255, 255, 0.1) 1%, transparent 3%);
+    background-size: 100px 100px;
+    opacity: 0.3;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.account-center {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.account-box {
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.account-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.account-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.main-wrapper.account-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.account-logo {
+    margin-bottom: 20px;
+}
+
+.account-btn {
+    background: linear-gradient(90deg, #4ca1af 0%, #2c3e50 100%);
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.account-btn:hover {
+    background: linear-gradient(90deg, #2c3e50 0%, #4ca1af 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(44, 62, 80, 0.3);
+}
+
+/* Profile and Avatar Styles */
+.profile-img .avatar, .user-img img {
+    border: 3px solid transparent;
+    background: linear-gradient(#fff, #fff) padding-box, 
+                linear-gradient(90deg, #4ca1af 0%, #2c3e50 100%) border-box;
+}
+
+/* Header Logo */
+.logo span {
+    background: linear-gradient(90deg, #fff 0%, #f8f9fa 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-weight: bold;
+}
+
+/* Custom Badge Styles */
+.custom-badge {
+    background: linear-gradient(90deg, #4ca1af 0%, #2c3e50 100%);
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.dropdown-item:hover {
+    background: linear-gradient(90deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+/* Enhanced Dashboard Widgets */
+.dash-widget-info {
+    position: relative;
+    z-index: 1;
+}
+
+.dash-widget-bg1, 
+.dash-widget-bg2, 
+.dash-widget-bg3, 
+.dash-widget-bg4 {
+    position: relative;
+    overflow: hidden;
+}
+
+.dash-widget-bg1:before, 
+.dash-widget-bg2:before, 
+.dash-widget-bg3:before, 
+.dash-widget-bg4:before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    z-index: 0;
+}
+
+.dash-widget-bg1:after, 
+.dash-widget-bg2:after, 
+.dash-widget-bg3:after, 
+.dash-widget-bg4:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: -20px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.05);
+    z-index: 0;
+}
+
+/* Dashboard Cards Animation */
+.dash-widget {
+    overflow: hidden;
+}
+
+.dash-widget:before {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -10%;
+    left: -10%;
+    z-index: 0;
+    background: radial-gradient(ellipse at center, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 40%, rgba(255,255,255,0.2) 100%);
+    transform: scale(0);
+    transition: transform 0.6s ease-out, opacity 0.6s ease-out;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.dash-widget:hover:before {
+    transform: scale(1);
+    opacity: 1;
+}
+
+/* Dashboard Tables */
+.table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table thead th {
+    background: linear-gradient(90deg, #4ca1af 0%, #2c3e50 100%);
+    color: white;
+    font-weight: 500;
+    border: none;
+}
+
+.table-hover tbody tr:hover {
+    background: linear-gradient(90deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+/* Activity Feed Items */
+.activity-list > li .activity-content {
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    transition: all 0.3s ease;
+}
+
+.activity-list > li:hover .activity-content {
+    transform: translateX(5px);
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+/* Page Titles */
+.page-title {
+    background: linear-gradient(90deg, #2c3e50 0%, #4ca1af 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    display: inline-block;
+    font-weight: bold;
+}
+
+/* Modal Styles */
+.modal-header {
+    background: linear-gradient(90deg, #4ca1af 0%, #2c3e50 100%);
+    color: white;
+}
+
+.modal-header .close {
+    color: white;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+
+.modal-header .close:hover {
+    opacity: 1;
+    transform: rotate(90deg);
+}
+
+.modal-footer {
+    background: linear-gradient(90deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+/* Notification Badges */
+.badge {
+    background: linear-gradient(90deg, #e74c3c 0%, #c0392b 100%);
+    transition: all 0.3s ease;
+}
+
+.badge:hover {
+    transform: scale(1.1);
+}
+
+/* Font and Text Colors */
+.header .header-left a {
+    color: #fff;
+}
+
+.header .user-menu.nav > li > a {
+    color: #fff;
+}
+
+.sidebar-menu li a {
+    color: rgba(255, 255, 255, 0.8);
+    transition: all 0.3s ease;
+}
+
+.sidebar-menu li a:hover {
+    color: #fff;
+}
+
+.sidebar-menu li.active a {
+    color: #fff;
+    font-weight: 500;
+}
+
+/* Sidebar Menu Item Animations */
+.sidebar-menu ul li a {
+    position: relative;
+    overflow: hidden;
+}
+
+.sidebar-menu ul li a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0.5) 100%);
+    transition: width 0.3s ease;
+}
+
+.sidebar-menu ul li a:hover:after {
+    width: 100%;
+}
+
+.sidebar-menu ul li.active a:after {
+    width: 100%;
+}
+
+/* Box Shadows for Cards */
+.card, .card-box {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover, .card-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #4ca1af 0%, #2c3e50 100%);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #2c3e50 0%, #4ca1af 100%);
+}
+
+/* Login Form Fixes */
+.form-signin {
+    position: relative;
+    z-index: 2;
+}
+
+.form-control {
+    position: relative;
+    z-index: 2;
+}
+
+.btn.account-btn {
+    position: relative;
+    z-index: 2;
+}
+
+.account-box input,
+.account-box button {
+    position: relative;
+    z-index: 2;
+}
+
+.account-box label {
+    position: relative;
+    z-index: 2;
+    color: #333;
+} 
